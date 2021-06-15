@@ -31,7 +31,6 @@ class DriftDetector:
     """
     A class to compute differences (by some metric) between two DataFrames:
     a baseline and a sample.
-    AN ADDITIONAL CHANGE HERE TO CAUSE VERSION UPDATE
 
     Methods
     -------
