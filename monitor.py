@@ -13,6 +13,7 @@ def begin():
     # Making another change by adding a comment
     # change
     #ANOTHER CHANGE
+    #ANOTHER CHANGE
     print("Begin function...")
     global SPARK
     SPARK = SparkSession.builder.appName("DriftTest").getOrCreate()
