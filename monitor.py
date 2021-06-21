@@ -12,6 +12,7 @@ def begin():
     print("Begin function...")
     global SPARK
     SPARK = SparkSession.builder.appName("DriftTest").getOrCreate()
+    print("SPARK variable is set!")
 
     # Read schema
     global SCHEMA
