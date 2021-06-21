@@ -131,3 +131,4 @@ def parse_assets(
     output_path = external_outputs[0]["fileUrl"]
 
     return (comparator_path, baseline_path, output_path)
+    
