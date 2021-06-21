@@ -9,12 +9,6 @@ from moc_schema_infer import set_detector_parameters
 
 # modelop.init
 def begin():
-    # Making a change by adding a comment
-    # Making another change by adding a comment
-    # change
-    #ANOTHER CHANGE
-    #ANOTHER CHANGE
-    # Change
     print("Begin function...")
     global SPARK
     SPARK = SparkSession.builder.appName("DriftTest").getOrCreate()
