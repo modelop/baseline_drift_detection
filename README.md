@@ -1,7 +1,7 @@
 # Baseline Drift Detection Monitor Example
 
 Will use this branch for testing git synch.
-A change to README file
+A change to README file from GIT
 This repo is an example Spark data drift monitor model that is conformed for use with ModelOp Center and the ModelOp Spark Runtime Service.
 
 ## Assets
