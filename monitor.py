@@ -15,6 +15,7 @@ def begin():
     # a new comment
     # Second merge?
     # starting again
+    # afinal change
     print("Begin function...")
     global SPARK
     SPARK = SparkSession.builder.appName("DriftTest").getOrCreate()
