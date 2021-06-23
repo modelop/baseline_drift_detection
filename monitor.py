@@ -18,6 +18,7 @@ def begin():
     # one more
     # again
     # one more
+    # a new change now
     print("Begin function...")
     global SPARK
     SPARK = SparkSession.builder.appName("DriftTest").getOrCreate()
