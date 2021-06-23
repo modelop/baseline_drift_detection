@@ -11,6 +11,7 @@ from moc_schema_infer import set_detector_parameters
 def begin():
     # adding a comment to cause a change
     # a new comment
+    # a new change
     print("Begin function...")
     global SPARK
     SPARK = SparkSession.builder.appName("DriftTest").getOrCreate()
