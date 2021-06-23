@@ -16,6 +16,7 @@ def begin():
     # Last change
     # Another change after using different line breaks
     # one more
+    # again
     print("Begin function...")
     global SPARK
     SPARK = SparkSession.builder.appName("DriftTest").getOrCreate()
