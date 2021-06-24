@@ -24,6 +24,7 @@ def begin():
     SPARK = SparkSession.builder.appName("DriftTest").getOrCreate()
 
     # Read schema
+    # Change on 6/24 at 9:07
     global SCHEMA
     SCHEMA = pd.read_json("df_sample_scored_input_schema.avsc", orient="records")
     # set schema index to be "name"
