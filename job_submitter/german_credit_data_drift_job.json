@@ -711,7 +711,7 @@
   },
   "targetEngine": {
     "engineType": "SPARK_RUNTIME",
-    "name": "spark-runtime-1",
+    "name": "spark-runtime-2",
     "inputEndpoints": [],
     "outputEndpoints": []
   }
